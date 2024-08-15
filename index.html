@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="Dekstop.css"
+      media="screen and (min-width: 992px)"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo col-4">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="navbar-menu col-8">
+        <a href="#">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="profile-section " id="About">
+      <div class="profile-img col-6">
+        <img
+          class="profile-image"
+          src="images/profile-pic1.jpg"
+          alt="profile-image"
+        />
+      </div>
+      <div class="profile-desc col-6">
+        <h1><span class="span-text">I am</span> Mohammed Hossen</h1>
+        <h1 class="web-title">Web Developer</h1>
+        <br />
+
+        <button class="cv-btn">Cv Dawnload</button>
+      </div>
+    </div>
+
+    <div class="skills-cards" id="Skills">
+      <div class="skills-container col-6">
+        <h1>Skill bar</h1>
+        <div class="skill-card">
+          <p>HTML</p>
+          <div class="skills-container1">
+            <div class="skills html">90%</div>
+          </div>
+
+          <p>CSS</p>
+          <div class="skills-container1">
+            <div class="skills css">80%</div>
+          </div>
+          <p>JAVASCRIPT</p>
+          <div class="skills-container1">
+            <div class="skills js">70%</div>
+          </div>
+          <p>REACT JS</p>
+          <div class="skills-container1">
+            <div class="skills react">60%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-container col-6">
+        <h1>Skill bar</h1>
+        <div class="skill-card">
+          <p>NODE JS</p>
+          <div class="skills-container1">
+            <div class="skills html">90%</div>
+          </div>
+
+          <p>EXPRESS JS</p>
+          <div class="skills-container1">
+            <div class="skills css">80%</div>
+          </div>
+          <p>MONGODB</p>
+          <div class="skills-container1">
+            <div class="skills js">70%</div>
+          </div>
+          <p>REACT JS</p>
+          <div class="skills-container1">
+            <div class="skills react">60%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form col-12" id="Contact">
+      <h1>Contact me</h1>
+      <form action="mailto:mohammedhossen8953@gmail.com" method="post" enctype="text/plain">
+        <p><input type="text" placeholder="Your name" name="name"></p>
+        <p><input type="email" placeholder="Your email" name="email"></p>
+        <p><textarea name="message" id="" placeholder="your message here"></textarea></p>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+
+    <div class="footer-card">
+      <footer>
+        <div class="icon col-6">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Skills</a>
+          <a href="">Contact</a>
+
+        </div>
+        <div class="footer-desc col-6">
+          <h3>copyright 2024</h3>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

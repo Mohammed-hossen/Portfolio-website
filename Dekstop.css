@@ -1,0 +1,138 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.logo h1{
+   text-align: center;
+  margin-top: 10px;
+   
+   text-transform: uppercase;
+   
+}
+
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.navbar-menu a{
+ margin-right: 20px;
+ font-weight: bolder;
+}
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    background-color: #bfd8d9;
+    
+ }
+ .profile-image{
+     max-width: 500px;
+     max-width: 450px;
+     padding: 10px;
+     margin: 30px;
+     border: 2px solid  #1d2f30;
+     border-radius: 20%;
+ 
+     
+ }
+ .profile-desc{
+     color: white;
+     background-color: transparent;
+     margin-top: 120px;
+     color: black;
+     font-weight: bolder;
+     font-size: 25px;
+     
+ }
+ .profile-desc h1:hover{
+    
+    background-color:  #5f9ea0;
+    color: white;
+    border-radius: 20px;
+ 
+
+ }
+ .profile-desc h2:hover{
+    
+    background-color:  #5f9ea0;
+    color: white;
+    border-radius: 20px;
+  
+
+ }
+ .span-text{
+    color: red;
+    font-size:15px;
+}
+.web-title{
+    color: red;
+
+}
+.cv-btn{
+    background-color:#1d2f30;
+    color: white;
+    font-weight: bolder;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+.cv-btn:hover{
+    box-shadow: 4px 2px white;
+}
+.skills-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #175c5f;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.skills-container{
+   
+    margin: 10px;
+    padding: 10px;
+      
+}
+
+.footer-card{
+    background-color: #0a1010;
+    color: white;
+    text-align: center;
+    
+ 
+    
+    
+}
+.footer-card a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+   
+   
+}
+.icon{
+    margin-top: 10px;
+}
+
+.footer-card h3{
+    font-size: 25px;
+    margin: 10px;
+}
+
+
